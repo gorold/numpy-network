@@ -12,7 +12,6 @@ class tensor(object):
         self._generate_children_for_parents()
         self.grad = None
 
-
     def __repr__(self):
         return self.data.__repr__()
 
